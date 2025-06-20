@@ -1,0 +1,22 @@
+:root{
+    --primary-color: rgb(21, 10, 46);
+}
+
+body{
+    background: var(--primary-color);
+}
+.header{
+    background-color: var(--primary-color);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    align-items: center;
+    gap: 30px;
+    padding-left: 25px;
+    color: aliceblue;
+}
+.header button{
+    position: absolute;
+    right: 30px;
+}
