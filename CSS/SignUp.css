@@ -25,6 +25,10 @@ body{
 .center__option span{
     margin-left: 20px;
     margin-right: 20px;
+    opacity: 0.8;
+}
+.center__option span:hover{
+    opacity: 1;
 }
 
 .menu:hover{
@@ -65,12 +69,13 @@ body{
     height: 330px;
     color: aliceblue;
     padding: 40px;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #2b0b65, #a96adf);
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgb(21, 10, 46), #4d298f);
 
 }
 #comma{
     font-size: 50px;
+    color: #4d298f;
 }
 .center__card{
     margin: 0rem 1rem 0rem 1rem;
@@ -119,4 +124,7 @@ body{
     color: #f8b500;
     font-size: 25px;
     margin-right: 8px;
+}
+.info{
+    opacity: .7;
 }
