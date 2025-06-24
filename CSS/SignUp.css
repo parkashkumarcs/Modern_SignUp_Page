@@ -6,17 +6,23 @@ body{
     background: var(--primary-color);
 }
 .header{
-    background-color: var(--primary-color);
     font-size: 20px;
     display: flex;
-    flex-direction: row;
-    border: 2px solid white;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    padding-left: 25px;
+    padding: 10px 50px 0px 50px;
+}
+.menu{
+    font-size: 20px;
     color: aliceblue;
 }
-.header button{
-    position: absolute;
-    right: 30px;
+.center__option span{
+    margin-left: 20px;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+.sign__up-button:hover{
+    cursor: pointer;
 }
