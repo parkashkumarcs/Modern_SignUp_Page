@@ -18,10 +18,23 @@ body{
 }
 .center__option span{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .menu:hover{
     cursor: pointer;
+}
+.sign__up-button{
+
+    padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 .sign__up-button:hover{
     cursor: pointer;
